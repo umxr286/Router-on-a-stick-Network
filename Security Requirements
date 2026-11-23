@@ -1,0 +1,21 @@
+The Switch:
+
+Interfaces Fast Ethernet 05 to 24 are shutdown. This prevents unnecessary doors from being open to attack by 
+limiting unauthorised network connections.
+
+VLAN MANAGEMENT
+
+End devices are split into VLAN 10 and VLAN 20. This prevents end devices between the VLANs from communicating.
+
+PC 1 - 192.168.10.11
+PC 2 - 192.168.10.12
+Laptop 1 - 192.168.20.11
+Laptop 2 - 192.168.20.12
+
+The PCs can communicate with each other. Likewise, the Laptops can communicate with each other. But a PC cant successfully
+ping to laptop 1 as the resources are controlled i.e. a printer in vlan 10 can only be accessed by PCs in vlan 10.
+
+
+
+
+
