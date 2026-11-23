@@ -28,4 +28,4 @@ VLAN MANAGEMENT
 
 802.1q encapsulation is implemented for subinterfaces G0/0.10 and G0/0.20. For security purposes, 802.1q helps by:
 - supporting the switchport mode trunks for routing traffic to VLAN 10 and 20.
-- allowing a single trunk link to carry traffic for many VLANs
+- allowing a single trunk link to carry traffic for many VLANs instead of seperate physical links which is costly
