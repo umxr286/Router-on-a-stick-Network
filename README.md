@@ -26,6 +26,8 @@ MOST IMPORTANT - *excluding these host addresses below prevents the dhcp server 
 2. ip dhcp excluded-address 192.168.10.1 192.168.10.10
 3. ip dhcp excluded-address 192.168.20.1 192.168.20.10
 
+DHCP Pool Configuration
+
 1. Configure terminal 
 2. int vlan 10
 3. ip dhcp VLAN10_Pool
