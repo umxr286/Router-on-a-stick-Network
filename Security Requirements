@@ -15,7 +15,17 @@ Laptop 2 - 192.168.20.12
 The PCs can communicate with each other. Likewise, the Laptops can communicate with each other. But a PC cant successfully
 ping to laptop 1 as the resources are controlled i.e. a printer in vlan 10 can only be accessed by PCs in vlan 10.
 
+NETWORK CONNECTIVITY
 
+PC 1 and 2 can successfully ping to 192.168.10.1, as the assigned ip address for VLAN 10
+Laptop 1 and 2 can successfully ping to 192.168.20.1, as the assigned ip address for VLAN 20
 
+The Router:
 
+Interfaces G0/1 is shutdown. This is unnecessary and thus hardens the router by reducing the attack surface.
 
+VLAN MANAGEMENT
+
+802.1q encapsulation is implemented for subinterfaces G0/0.10 and G0/0.20. For security purposes, 802.1q helps by:
+- supporting the switchport mode trunks for routing traffic to VLAN 10 and 20.
+- allowing a single trunk link to carry traffic for many VLANs
