@@ -1,5 +1,4 @@
 # Router-on-a-stick-Network
-The Star Model
 
 The Star Model Configuration
 
